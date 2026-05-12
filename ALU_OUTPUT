@@ -19,5 +19,7 @@ Performing bitwise AND:
 Therefore, the output result becomes 1, which is correctly shown in the waveform.
 Similarly, other waveform sections represent Addition, Subtraction, OR, and NOT operations based on the select signal value.
 
+<img width="1431" height="821" alt="Image" src="https://github.com/user-attachments/assets/ae610949-767f-4d3e-a204-a15558394758" />
+
 
 
