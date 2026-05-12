@@ -25,21 +25,32 @@ ALU.v – Main ALU design module
 
 testbench_ALU.v – Testbench for simulation and verification
 
+
 The ALU performs the following operations:
 
 Addition
+
 Subtraction
+
 Bitwise AND
+
 Bitwise OR
+
 Bitwise NOT
+
 
 This project helped in understanding important digital design concepts such as:
 
 combinational logic circuits
+
 binary arithmetic operations
+
 multiplexer-based operation selection
+
 Verilog HDL syntax
+
 simulation and debugging using waveforms
+
 
 The design can serve as a beginner-friendly project for students learning FPGA design, Verilog HDL, and computer architecture concepts. Since the ALU is a core building block of processors and embedded systems, this project also acts as a foundation for more advanced designs such as processors, pipelined architectures, and FPGA-based computing systems.
 
