@@ -17,6 +17,7 @@ The project was simulated using Xilinx Vivado, and a separate testbench was writ
 This repository mainly contains two Verilog files:
 
 ALU.v – Main ALU design module
+
 testbench_ALU.v – Testbench for simulation and verification
 
 The ALU performs the following operations:
