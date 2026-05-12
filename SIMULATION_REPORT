@@ -1,32 +1,35 @@
-<code style="color : red">SIMULATION REPORT</code>
-
+SIMULATION REPORT
 4-Bit Arithmetic Logic Unit (ALU) using Verilog HDL
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 Objective
 To design and simulate a 4-bit Arithmetic Logic Unit (ALU) capable of performing basic arithmetic and logical operations using Verilog HDL.
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 Software Used
+
 Xilinx Vivado
 Verilog HDL
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 Operations Implemented
+
 Select Signal	Operation
+
 000	Addition
 001	Subtraction
 010	AND
 011	OR
 100	NOT
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 Input Values Used
 A = 5 (0101)
 B = 3 (0011)
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 Simulation Procedure
+
 The ALU module was designed using Verilog HDL.
 A separate testbench was created to apply different select signal values.
 Behavioral simulation was run in Xilinx Vivado.
 Waveforms were observed to verify the correctness of each operation.
-
+==========================================================================================================================================================
 Waveform Analysis
 
 The waveform shows the ALU output for different select signal values.
@@ -37,11 +40,13 @@ sel = 2
 Operation performed = AND
 
 Binary values:
+______________
 
 A = 0101
 B = 0011
 
 AND operation result:
+______________________
 
 0101 AND 0011 = 0001
 
@@ -50,7 +55,7 @@ Therefore, the output becomes:
 result = 1
 
 The waveform correctly verifies the AND operation output.
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 Simulation Results
 Operation	Output
 Addition	8
@@ -58,10 +63,10 @@ Subtraction	2
 AND	1
 OR	7
 NOT	10
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 Result
 The 4-bit ALU was successfully designed and simulated using Verilog HDL. All arithmetic and logical operations produced correct outputs during simulation.
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 Conclusion
 The project demonstrated the implementation of a basic ALU using combinational logic in Verilog HDL. Simulation results verified the correct functioning 
 of all operations through waveform analysis
