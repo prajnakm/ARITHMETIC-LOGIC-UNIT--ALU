@@ -21,35 +21,35 @@ The project was simulated using Xilinx Vivado, and a separate testbench was writ
 
 This repository mainly contains two Verilog files:
 
-ALU.v – Main ALU design module
+1.ALU.v – Main ALU design module
 
-testbench_ALU.v – Testbench for simulation and verification
+2.testbench_ALU.v – Testbench for simulation and verification
 
 
 The ALU performs the following operations:
 
-Addition
+1.Addition
 
-Subtraction
+2.Subtraction
 
-Bitwise AND
+3.Bitwise AND
 
-Bitwise OR
+4.Bitwise OR
 
-Bitwise NOT
+5.Bitwise NOT
 
 
 This project helped in understanding important digital design concepts such as:
 
-combinational logic circuits
+1.combinational logic circuits
 
-binary arithmetic operations
+2.binary arithmetic operations
 
-multiplexer-based operation selection
+3.multiplexer-based operation selection
 
-Verilog HDL syntax
+4.Verilog HDL syntax
 
-simulation and debugging using waveforms
+5.simulation and debugging using waveforms
 
 
 The design can serve as a beginner-friendly project for students learning FPGA design, Verilog HDL, and computer architecture concepts. Since the ALU is a core building block of processors and embedded systems, this project also acts as a foundation for more advanced designs such as processors, pipelined architectures, and FPGA-based computing systems.
