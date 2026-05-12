@@ -36,7 +36,7 @@ At the highlighted cursor position:
 sel = 2
 Operation performed = AND
 
-Binary values:
+/*Binary values:*/
 
 A = 0101
 B = 0011
