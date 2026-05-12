@@ -23,7 +23,7 @@ B = 3 (0011)
 
 Simulation Procedure
 The ALU module was designed using Verilog HDL.
-A separate testbench was created to apply different select signal values.
+-A separate testbench was created to apply different select signal values.
 Behavioral simulation was run in Xilinx Vivado.
 Waveforms were observed to verify the correctness of each operation.
 
@@ -36,7 +36,7 @@ At the highlighted cursor position:
 sel = 2
 Operation performed = AND
 
-/*Binary values:*/
+Binary values:
 
 A = 0101
 B = 0011
